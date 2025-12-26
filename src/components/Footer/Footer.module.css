@@ -1,0 +1,49 @@
+.hover-effect {
+    transition: all 0.3s ease;
+}
+
+.hover-effect:hover {
+    color: #28a745 !important;
+    transform: translateY(-2px);
+}
+
+.hover-link {
+    transition: color 0.3s ease;
+}
+
+.hover-link:hover {
+    color: #28a745 !important;
+}
+
+/* Custom styles for footer */
+footer {
+    background: linear-gradient(135deg, #212529 0%, #343a40 100%);
+}
+
+footer .container {
+    max-width: 1200px;
+}
+
+footer h5, footer h6 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+footer p {
+    line-height: 1.6;
+}
+
+footer .border-secondary {
+    border-color: #495057 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    footer .d-flex.justify-content-md-end {
+        justify-content: center !important;
+    }
+    
+    footer .text-md-end {
+        text-align: center !important;
+    }
+}

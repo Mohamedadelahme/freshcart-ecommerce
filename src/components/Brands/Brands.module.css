@@ -1,0 +1,36 @@
+.brandCard {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.brandCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(40, 167, 69, 0.15) !important;
+}
+
+.brandImage {
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa;
+}
+
+.brandImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.brandCard:hover .brandImage img {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .brandImage {
+        height: 150px;
+    }
+}
